@@ -12,7 +12,7 @@ class RongCloudOperation {
     //图谱公钥路径 下载地址 http://api.open.tuputech.com/v2/pipe/558e37eba636676972c8ab94
     public $open_tuputech_com_public_key_path = "./open_tuputech_com_public_key.pem";
     //融云删除图片的链接
-    public $deleteUrl = "https://api.cn.rong.io/image/delete.json";
+    public $deleteUrl = "https://api.cn.ronghub.com/image/delete.json";
 
     public function __construct($secretid, $appSecret, $appkey) {
         $this->secretid = $secretid;
